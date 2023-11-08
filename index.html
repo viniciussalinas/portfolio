@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, inital-scale=1.0">
+    <title>Vinicius Salinas · Portfolio</title>
+    <link rel="icon" href="files/icon.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/f177f1e5b2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <!--img src="files/logo.png" class="logo"-->
+                <ul id="sidemenu">
+                    <!--li><a href="#header">Home</a></li-->
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h1><span>Vinicius</span><br>Salinas</h1>
+                <p>Data Science | Developer | Product Owner</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <video src="files/user.mp4" type="video/mp4" autoplay loop muted>
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I'm Vini, a 26-year-old Brazilian living in Australia, fueled by my enthusiasm for technology. I enjoy surfing and skating, and I'm known for being communicative, organized, friendly, and patient. 🤙</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('volunteering')">Volunteering</p>
+                        <p class="tab-links" onclick="opentab('languages')">Languages</p>
+                        <p class="tab-links" onclick="opentab('honnors')">Honnors</p>
+                    </div>
+                    <div class="tab-contents" id="volunteering">
+                        <ul>
+                            <li>
+                                <span>Volunteer at WeSpeak Colombia, 2020</span><br>
+                                <b style="font-weight: 500;">AIESEC - Cúcuta, Colombia<br></b>
+                                Mobility to Colombia through participation in the We Speak project, teaching English classes to children and adolescents in public schools in Cúcuta.
+                            </li>
+                            <li>
+                                <span>Academic Director, 2018</span><br>
+                                <b style="font-weight: 500;">Share - Sorocaba, Brazil<br></b>
+                                Work as a trainee and academic director at Share, an entity that encourages language learning and cultural activities in society with an impact of over 5000 people every six months. Responsible for managing activities linked to the organization's teaching quality.
+                            </li>
+                            <li>
+                                <span>Tutor for Computing Probability and Statistics, 2017</span><br>
+                                <b style="font-weight: 500;">UFSCar Universidade Federal de São Carlos - Sorocaba, Brazil<br></b>
+                            </li>
+                            <li>
+                                <span>Teacher, 2018</span><br>
+                                <b style="font-weight: 500;">Share - Sorocaba, Brazil<br></b>
+                                Voluntary work teaching introductory programming classes for the Sorocaba community.
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="languages">
+                        <ul>
+                            <li>
+                                <span>English</span><br>
+                                Advanced Professional Competency
+                            </li>
+                            <li>
+                                <span>Spanish</span><br>
+                                Advanced Professional Competency
+                            </li>
+                            <li>
+                                <span>Portuguese</span><br>
+                                Native proficiency
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li>
+                                <span>Croupier, 2022 July - Actual</span><br>
+                                <b style="font-weight: 500;">The Star Gold Coast - Gold Coast, Australia</b><br>
+                                - Table Games Dealer with expertise in casino games including Blackjack and Baccarat.
+                            </li>
+                            <li>
+                                <span>Product Owner, 2022 Jan - June</span><br>
+                                <b style="font-weight: 500;">Burger King Brasil & Popeyes Louisiana Kitchen - Barueri, Brazil<br></b>
+                                - Mapping of the user data collection service to create personalized offers to customers (CRM).<br>
+                                - Coordination of SCRUM ceremonies.<br>
+                                - Creation and prioritization of new demands in the product backlog in the Single Sign-On and Customer squad.<br>
+                            </li>
+                            <li>
+                                <span>Business Analyst, 2020 Dec - 2021 Dec<br></span>
+                                <b style="font-weight: 500;">Burger King Brasil & Popeyes Louisiana Kitchen - Barueri, Brazil<br></b>
+                                - Acting together with Delivery Integration developers, to align and meet business and technology needs, through the SCRUM methodology.<br>
+                                - Management and monitoring of KPIs.<br>
+                                - Generation of reports and materials containing the main metrics in the area.<br>
+                            </li>
+                            <li>
+                                <span>Data Analyst, 2020 Jun - 2020 Dec</span><br>
+                                <b style="font-weight: 500;">Alicerce Educação - São Paulo, Brazil<br></b>
+                                - Expertise in data manipulation of company data, including data from potential customers, to attract new ones (CRM).<br>
+                                - Creation and monitoring of Salesforce reports and Dashboards.<br>
+                                - Mapping of indicators, OKRs, and company process metrics.<br>
+                            </li>
+                            <li>
+                                <span>Quality Assurance Intern, 2019 Feb - 2020 Jan</span><br>
+                                <b style="font-weight: 500;">Cielo - Barueri, Brazil<br></b>
+                                - Created +40 software test scenarios with Java and BDD.<br>
+                                - Developed SQL queries to extract data for important decisions making.<br>
+                                - Participation in training about agile methodologies, Office pack, innovation, and others.<br>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents active-tab" id="education">
+                        <ul>
+                            <li>
+                                <span>Mindroom Innovation</span><br>
+                                <b style="font-weight: 500;">Diploma of Information Technology - Web Development Specialisation</b><br>
+                                2023-2025
+                            </li>
+                            <li>
+                                <span>Entrepreneur Education</span><br>
+                                <b style="font-weight: 500;">Certificate III in Business<br></b>
+                                2022
+                            </li>
+                            <li>
+                                <span>UNISINOS - Universidade do Vale do Rio dos Sinos</span><br>
+                                <b style="font-weight: 500;">Postgraduate Degree in Big Data, Data Science, and Data Analytics<br></b>
+                                2020-2021
+                            </li>
+                            <li>
+                                <span>UFSCar - Universidade Federal de São Carlos</span><br>
+                                <b style="font-weight: 500;">Bachelor Degree in Computer Science<br></b>
+                                2016-2019
+                            </li>
+                            <li>
+                                <span>Nippo</span><br>
+                                <b style="font-weight: 500;">Certificate in Web Design<br></b>
+                                2010-2011
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="honnors">
+                        <ul>
+                            <li>
+                                <span>1st place - Digital Ecoar Marathon</span><br>
+                                <b style="font-weight: 500;">Eureca · May 2020</b><br>
+                                Secured first place in the Ecoar Digital Marathon, a competition encompassing agile methodologies, entrepreneurship, and cooperation.
+                            </li>
+                            <li>
+                                <span>3rd place - Hackathon do Bem</span><br>
+                                <b style="font-weight: 500;">Renner, Eureca e 08 · May 2020<br></b>
+                                Achieved third place in the Hackathon do Bem, a COVID-19 response competition, winning a 100% scholarship discount for specialization at Unisinos and other awards.
+                            </li>
+                            <li>
+                                <span>Mini-Company Highlights 2014 (Product Director)</span><br>
+                                <b style="font-weight: 500;">Junior Achievement · Dec 2014<br></b>
+                                As Product Director for Enjoy SA/E, our team won the 2014 Highlight Mini-company award in Brazil, mentored by Junior Achievement and recognized by Cacau Show's founder and president.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>
+                        Web Development
+                    </h2>
+                    <p>
+                        I've gained expertise in Full Stack Development with certification from Gama Academy, which complements my skills in <b>HTML, CSS, and various programming languages, including C, Java, and JavaScript</b>. My web development prowess extends to platforms like <b>WordPress</b>. 
+                    </p>
+                    <a href="files/cert-fullstack.pdf " target="_blank"><u>Check out my Certificate</u></a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-database"></i>
+                    <h2>
+                        Data Science
+                    </h2>
+                    <p>
+                        My foundation in Computer Science has been enhanced by a postgraduate program in Big Data, Data Science, and Data Analytics. I've gained hands-on experience in <b>ETL/ELT processes, data analysis with SQL, dbt, Kondado, BigQuery, Power Query, and Python</b>. I hold a certificate in Analytics Engineering from Indicium, which has deepened my data engineering expertise.
+                    </p>
+                    <a href="files/cert-analytics.pdf" target="_blank"><u>Check out my Certificate</u></a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-sitemap"></i>
+                    <h2>
+                        Product Owner
+                    </h2>
+                    <p>
+                        My journey as a Product Owner began with invaluable experience at Burger King in Brazil. Additionally, I hold a certification in UX Design from How Bootcamps, solidifying my dedication to user-centered design. My skill set also includes proficiency in <b>Lean Six Sigma, Design Thinking, and expertise in SCRUM and Kanban methodologies</b>.
+                    </p>
+                    <a href="files/cert-ux.pdf" target="_blank"><u>Check out my Certificate</u></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">Projects</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="files/work-1.png">
+                <div class="layer">
+                    <h3>Game Catalog System</h3>
+                    <p>The "B-Tree-based Game Catalog System" uses B-trees to efficiently manage a game catalog, offering features like registration, modification, search, and listing of game records. This text-based console application demonstrates B-tree usage in data structure management for game collections.</p>
+                    <a href="https://github.com/viniciussalinas/b_tree_game_catalog" target="_blank"><i class="fas fa-code"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="files/work-2.png">
+                <div class="layer">
+                    <h3>Instagram Fake Accounts Classification</h3>
+                    <p>This Jupyter Notebook project uses a machine learning model to identify fake Instagram profiles. With over 90% accuracy on a dataset of 696 records, it helps combat fraudulent accounts and misinformation on the platform.</p>
+                    <a href="https://github.com/viniciussalinas/instagram_fake_accounts" target="_blank"><i class="fas fa-code"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="files/work-3.png"><div class="layer">
+                    <h3>Design Projects</h3>
+                    <p>1. THYKE - Restaurant Discount App:
+                        THYKE connects restaurants and customers through discounts and a points system, making dining out more enjoyable and affordable.
+                        <br>
+                        2. Trabalha Brasil - Job Qualification Website:
+                        Trabalha Brasil helps job seekers in Brazil boost their qualifications and find employment opportunities, bridging the gap between skills and careers.</p>
+                    <div class="design-icons">
+                        <a href="https://www.figma.com/file/8zb6VcBWlyr688qhXRYYx2/TYKHE-App?type=design&node-id=0-1&mode=design" target="_blank"><i class="fa-solid fa-mobile-screen-button"></i></a>
+                        <a href="https://www.figma.com/file/ANok56AE8jO8B1B66GujM1/Trabalha-Brasil-Website?type=design&node-id=0-1&mode=design" target="_blank"><i class="fa-solid fa-desktop"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="https://github.com/viniciussalinas" target="_blank" class="btn">More on GitHub</a>
+    </div>
+</div>
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i>
+                    vinicius_salis@hotmail.com
+                </p>
+                <p><i class="fas fa-phone-square-alt"></i>
+                    +61 405 825 480</p>
+                <div class="social-icons">
+                    <!--a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a-->
+                    <!--a href=""><i class="fab fa-twitter-square"></i></a-->
+                    <a href="https://www.linkedin.com/in/vinicius-salinas/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/viniciussalinas" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <!--a href=""><i class="fab fa-instagram"></i></a-->
+                </div>
+                <a href="files/vinicius-salinas-cv.pdf " target="_blank" download class="btn btn2">View CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © 2023 by Vinicius Salinas</p>
+    </div>
+</div>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link"); // ativa o que foi clicado
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxEJumIS-ZvyBO2mDhMdfKEarVl0MR3PV66jttOplMO5u0EeC6OCg-OH4Kf_1HOlXZW/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent sucessfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+</script>
+</body>
+</html>
