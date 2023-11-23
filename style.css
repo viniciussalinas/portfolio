@@ -93,7 +93,7 @@ nav ul li a:hover::after{
 .about-col-1{
     flex-basis: 35%;
 }
-.about-col-1 video{
+.about-col-1 img{
     width: 100%;
     border-radius: 15px;
 }
@@ -279,6 +279,7 @@ div h1{
 }
 .contact-left p{
     margin-top: 30px;
+    text-decoration: none;
 }
 .contact-left p i{
     color:#8FFF00;
